@@ -148,7 +148,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contact@fitcoach.app"
+                  href="mailto:contact@fit-coach.app"
                   className="text-white/60 hover:text-white transition-colors text-sm"
                 >
                   Contact
@@ -162,16 +162,16 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-6">Support</h3>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="mailto:support@fitcoach.app"
+                <Link
+                  href="/support"
                   className="text-white/60 hover:text-white transition-colors text-sm"
                 >
                   Centre d'aide
-                </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href="mailto:support@fitcoach.app"
+                  href="mailto:contact@fit-coach.app"
                   className="text-white/60 hover:text-white transition-colors text-sm"
                 >
                   Support
