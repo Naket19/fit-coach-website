@@ -127,17 +127,26 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative"
           >
-            <div className="relative mx-auto w-full max-w-sm">
+            <div className="relative mx-auto w-full max-w-[320px]">
               {/* Glow Effect behind phone */}
-              <div className="absolute inset-0 bg-primary/20 blur-[60px] rounded-full transform scale-90" />
+              <div className="absolute inset-0 bg-primary/30 blur-[60px] rounded-full transform scale-90" />
               
-              {/* App screenshot */}
-              <div className="relative z-10">
-                <img
-                  src="/images/screen1.png"
-                  alt="Fit Coach App Interface"
-                  className="w-full h-auto rounded-3xl shadow-2xl border border-white/10"
-                />
+              {/* App screenshot in CSS Phone Frame */}
+              <div className="relative z-10 rounded-[3rem] border-8 border-dark-lighter bg-dark-lighter shadow-2xl">
+                {/* Inner Bezel */}
+                <div className="rounded-[2.5rem] overflow-hidden border-4 border-black bg-black relative">
+                  {/* Dynamic Island / Notch area (optional simulation) */}
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-6 bg-black rounded-b-2xl z-20"></div>
+                  
+                  <img
+                    src="/images/screen1.png"
+                    alt="Fit Coach App Interface"
+                    className="w-full h-auto block object-cover"
+                  />
+                  
+                  {/* Glass Reflection Effect */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-white/10 via-transparent to-transparent opacity-50 pointer-events-none z-10" />
+                </div>
               </div>
 
               {/* Floating Stats Cards */}
