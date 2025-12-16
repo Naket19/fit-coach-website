@@ -14,7 +14,7 @@
   "description": "Site web officiel de Fit Coach - Application de coaching sportif IA",
   "dependencies": {
     "framer-motion": "^12.23.24",
-    "next": "^16.0.3",
+    "next": "16.0.10",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
