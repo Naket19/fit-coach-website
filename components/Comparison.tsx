@@ -5,7 +5,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 
 const comparisonData = [
-  { label: "Prix", traditional: "60-100€/séance", fitcoach: "12,99€/mois", highlight: true },
+  { label: "Coût", traditional: "Très coûteux", fitcoach: "Très accessible", highlight: true },
   { label: "Disponibilité", traditional: "Rendez-vous fixe", fitcoach: "24/7", highlight: true },
   { label: "Personnalisation", traditional: "✓", fitcoach: "✓", highlight: false },
   { label: "Suivi progression", traditional: "Manuel", fitcoach: "✓ Automatique", highlight: true },
@@ -111,8 +111,8 @@ export default function Comparison() {
             className="grid sm:grid-cols-3 gap-6 mt-12"
           >
             <div className="text-center p-6 bg-primary/5 rounded-2xl border border-primary/20">
-              <div className="text-4xl font-bold text-primary mb-2">90%</div>
-              <p className="text-sm text-white/60">Moins cher qu'un coach</p>
+              <div className="text-4xl font-bold text-primary mb-2">€€</div>
+              <p className="text-sm text-white/60">Solution économique</p>
             </div>
             <div className="text-center p-6 bg-primary/5 rounded-2xl border border-primary/20">
               <div className="text-4xl font-bold text-primary mb-2">24/7</div>

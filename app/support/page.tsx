@@ -104,10 +104,9 @@ export default function SupportPage() {
                 <h3 className="text-xl font-bold mb-3">Quels sont les tarifs ?</h3>
                 <ul className="space-y-2 text-white/70">
                   <li><strong className="text-primary">Essai gratuit :</strong> 3 jours (accès complet à toutes les fonctionnalités)</li>
-                  <li><strong className="text-primary">Abonnement mensuel :</strong> 12,99€/mois</li>
-                  <li><strong className="text-primary">Abonnement annuel :</strong> 69,99€/an (soit 5,83€/mois - économisez 55% !)</li>
+                  <li><strong className="text-primary">Abonnements :</strong> Nous proposons des formules flexibles (mensuelles et annuelles). Consultez l'application pour voir les offres en vigueur dans votre région.</li>
                 </ul>
-                <p className="text-white/60 text-sm mt-4">Les prix peuvent varier selon votre pays et la devise locale.</p>
+                <p className="text-white/60 text-sm mt-4">Les prix peuvent varier selon votre pays et les promotions en cours.</p>
               </div>
 
               <div className="card">
