@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">Privacy Policy</h1>
         <p className="text-white/60 text-lg mb-12">
-          <strong>Last updated: November 18, 2025</strong>
+          <strong>Last updated: December 16, 2025</strong>
         </p>
 
         <div className="prose prose-invert max-w-none space-y-8">
@@ -111,7 +111,15 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside space-y-2 text-white/80 pl-4">
               <li>Health and fitness data (workout sessions, exercises performed, weights lifted, repetitions, sets, workout duration, estimated calories burned)</li>
+              <li><strong className="text-white">Apple HealthKit data</strong> (optional): If You grant permission, We may access Your health and fitness data from Apple Health (such as workouts, heart rate, calories burned). This data is used solely to provide You with personalized workout recommendations and is stored securely on Your device and Our servers. We do not share Your HealthKit data with third parties for advertising or marketing purposes.</li>
             </ul>
+            
+            <div className="bg-primary/10 border-2 border-primary/30 rounded-xl p-6 mt-4">
+              <h4 className="text-lg font-bold text-white mb-2">🏥 HealthKit Data Notice</h4>
+              <p className="text-white/80 text-sm leading-relaxed">
+                Fit Coach integrates with Apple HealthKit to sync Your fitness data. <strong className="text-white">Your HealthKit data is never sold to advertisers or third parties.</strong> We use this data exclusively to provide You with personalized fitness coaching and track Your progress. You can revoke HealthKit permissions at any time in Your device Settings.
+              </p>
+            </div>
           </section>
 
           <section className="pt-6">
@@ -126,8 +134,8 @@ export default function PrivacyPage() {
             </ul>
             <p className="text-white/80 leading-relaxed mt-4">
               You have the right to withdraw Your consent at any time by contacting Us at{' '}
-              <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                contact@fit-coach.com
+              <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                contact@fit-coach.app
               </a>
             </p>
           </section>
@@ -173,6 +181,35 @@ export default function PrivacyPage() {
                 <h4 className="text-lg font-bold text-white mb-2">Superwall</h4>
                 <p className="text-white/70 text-sm">Subscription management and paywall tracking</p>
               </div>
+
+              <div className="bg-dark-light rounded-xl p-5 border border-white/10">
+                <h4 className="text-lg font-bold text-white mb-2">Mixpanel</h4>
+                <p className="text-white/70 text-sm">Analytics and user behavior tracking to improve the app experience. We collect anonymized usage data (e.g., features used, session duration). <strong className="text-white">No personally identifiable information is shared.</strong></p>
+              </div>
+
+              <div className="bg-dark-light rounded-xl p-5 border border-white/10">
+                <h4 className="text-lg font-bold text-white mb-2">AppsFlyer</h4>
+                <p className="text-white/70 text-sm">Mobile attribution and marketing analytics. AppsFlyer helps us understand which marketing campaigns are most effective. Data collected includes device information and app interactions. <strong className="text-white">No health or fitness data is shared with AppsFlyer.</strong></p>
+              </div>
+
+              <div className="bg-dark-light rounded-xl p-5 border border-white/10">
+                <h4 className="text-lg font-bold text-white mb-2">Apple HealthKit</h4>
+                <p className="text-white/70 text-sm">Integration with Apple Health to sync fitness data (workouts, heart rate, calories). <strong className="text-white">HealthKit data remains on Your device and Our secure servers. We never share HealthKit data with third parties for advertising or marketing purposes.</strong> This complies with Apple's HealthKit Data Use Policy.</p>
+              </div>
+            </div>
+
+            <div className="bg-red-500/10 border-2 border-red-500/30 rounded-xl p-6 mt-6">
+              <h4 className="text-lg font-bold text-red-400 mb-3">⚠️ Important Privacy Notice</h4>
+              <p className="text-white/80 text-sm leading-relaxed mb-3">
+                <strong className="text-white">HealthKit Data Protection:</strong> In accordance with Apple's policies, Your health data from HealthKit is:
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-white/70 text-sm pl-4">
+                <li>Never used for advertising or marketing purposes</li>
+                <li>Never sold to third parties, data brokers, or advertisers</li>
+                <li>Never shared with analytics platforms (Mixpanel, AppsFlyer) for commercial purposes</li>
+                <li>Used exclusively to provide You with personalized fitness coaching</li>
+                <li>Stored securely with encryption</li>
+              </ul>
             </div>
           </section>
 
@@ -192,8 +229,8 @@ export default function PrivacyPage() {
             </ul>
             <p className="text-white/80 leading-relaxed">
               To exercise these rights, contact Us at{' '}
-              <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                contact@fit-coach.com
+              <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                contact@fit-coach.app
               </a>
             </p>
           </section>
@@ -210,8 +247,8 @@ export default function PrivacyPage() {
             </ol>
             <p className="text-white/80 leading-relaxed">
               Alternatively, contact Us at{' '}
-              <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                contact@fit-coach.com
+              <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                contact@fit-coach.app
               </a>
             </p>
           </section>
@@ -236,8 +273,8 @@ export default function PrivacyPage() {
             <h2 className="text-3xl font-bold mb-6">Children's Privacy</h2>
             <p className="text-white/80 leading-relaxed">
               Our Service is not intended for anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us at{' '}
-              <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                contact@fit-coach.com
+              <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                contact@fit-coach.app
               </a>
             </p>
           </section>
@@ -257,8 +294,8 @@ export default function PrivacyPage() {
             <div className="bg-primary/10 border border-primary/30 rounded-xl p-6">
               <p className="text-white font-semibold">
                 By email:{' '}
-                <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                  contact@fit-coach.com
+                <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                  contact@fit-coach.app
                 </a>
               </p>
             </div>

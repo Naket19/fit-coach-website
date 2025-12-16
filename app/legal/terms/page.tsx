@@ -21,7 +21,7 @@ export default function TermsPage() {
 
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">Terms of Use</h1>
         <p className="text-white/60 text-lg mb-12">
-          <strong>Last updated: November 18, 2025</strong>
+          <strong>Last updated: December 16, 2025</strong>
         </p>
 
         <div className="prose prose-invert max-w-none space-y-8">
@@ -174,6 +174,59 @@ export default function TermsPage() {
           </section>
 
           <section className="pt-6">
+            <h2 className="text-3xl font-bold mb-6">Apple HealthKit Integration</h2>
+            
+            <div className="bg-dark-light border border-white/10 rounded-xl p-6 mb-6">
+              <h3 className="text-xl font-bold mb-3 text-white">🏥 HealthKit Data Usage</h3>
+              <p className="text-white/80 leading-relaxed mb-4">
+                Fit Coach integrates with <strong className="text-white">Apple HealthKit</strong> to sync Your fitness data (such as workouts, heart rate, calories burned, and other health metrics). This integration is <strong className="text-primary">entirely optional</strong> and requires Your explicit permission.
+              </p>
+              
+              <h4 className="text-lg font-bold mb-2 text-white">How We Use HealthKit Data:</h4>
+              <ul className="list-disc list-inside space-y-2 text-white/80 mb-4">
+                <li>To display Your health and fitness data within the Application</li>
+                <li>To provide personalized workout recommendations</li>
+                <li>To track Your progress and fitness goals</li>
+                <li>To synchronize workout data across Your devices</li>
+              </ul>
+
+              <div className="bg-primary/10 border-2 border-primary/30 rounded-xl p-5 mb-4">
+                <h4 className="text-lg font-bold text-white mb-2">🔒 HealthKit Data Protection Promise</h4>
+                <p className="text-white/90 font-semibold mb-3">
+                  In strict compliance with Apple's HealthKit Data Use Policy, We guarantee that:
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-white/80 text-sm">
+                  <li><strong className="text-white">No Advertising:</strong> We will never use Your HealthKit data for advertising or marketing purposes</li>
+                  <li><strong className="text-white">No Selling:</strong> We will never sell Your HealthKit data to third parties, data brokers, or advertisers</li>
+                  <li><strong className="text-white">No Unauthorized Sharing:</strong> We will never share Your HealthKit data with analytics platforms (Mixpanel, AppsFlyer) or any third parties without Your explicit consent, except as required by law</li>
+                  <li><strong className="text-white">Fitness Use Only:</strong> Your HealthKit data is used exclusively to provide fitness coaching and track Your workout progress</li>
+                  <li><strong className="text-white">Secure Storage:</strong> All HealthKit data is encrypted and stored securely</li>
+                </ul>
+              </div>
+
+              <h4 className="text-lg font-bold mb-2 text-white">Your Control:</h4>
+              <p className="text-white/80 leading-relaxed mb-2">
+                You have full control over Your HealthKit data. You can:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-white/80">
+                <li>Grant or revoke HealthKit permissions at any time in Your device Settings</li>
+                <li>Choose which specific health data categories to share</li>
+                <li>Delete Your HealthKit data from Our servers by deleting Your Account</li>
+              </ul>
+            </div>
+
+            <div className="bg-red-500/10 border-2 border-red-500/30 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-red-400">⚠️ Health Data Disclaimer</h3>
+              <p className="text-white/90 leading-relaxed mb-3">
+                While We integrate with Apple HealthKit to provide a comprehensive fitness experience, <strong className="text-white">Fit Coach is not a medical device</strong> and should not be used for medical diagnosis or treatment.
+              </p>
+              <p className="text-white/80 text-sm">
+                Always consult a qualified healthcare professional before making health decisions based on data from the Application.
+              </p>
+            </div>
+          </section>
+
+          <section className="pt-6">
             <h2 className="text-3xl font-bold mb-6">Acceptable Use</h2>
             <p className="text-white/80 leading-relaxed mb-4">
               You agree to use the Service only for lawful purposes and in accordance with these Terms.
@@ -223,6 +276,18 @@ export default function TermsPage() {
               <div className="bg-dark-light rounded-xl p-4 border border-white/10">
                 <span className="text-white font-semibold">Apple In-App Purchase</span>
                 <span className="text-white/60 text-sm"> - Payment processing</span>
+              </div>
+              <div className="bg-dark-light rounded-xl p-4 border border-white/10">
+                <span className="text-white font-semibold">Mixpanel</span>
+                <span className="text-white/60 text-sm"> - Analytics and user behavior tracking</span>
+              </div>
+              <div className="bg-dark-light rounded-xl p-4 border border-white/10">
+                <span className="text-white font-semibold">AppsFlyer</span>
+                <span className="text-white/60 text-sm"> - Mobile attribution and marketing analytics</span>
+              </div>
+              <div className="bg-dark-light rounded-xl p-4 border border-white/10">
+                <span className="text-white font-semibold">Apple HealthKit</span>
+                <span className="text-white/60 text-sm"> - Integration with Apple Health (optional)</span>
               </div>
             </div>
           </section>
@@ -308,8 +373,8 @@ export default function TermsPage() {
             <div className="bg-primary/10 border border-primary/30 rounded-xl p-6">
               <p className="text-white font-semibold">
                 By email:{' '}
-                <a href="mailto:contact@fit-coach.com" className="text-primary hover:text-primary-light underline">
-                  contact@fit-coach.com
+                <a href="mailto:contact@fit-coach.app" className="text-primary hover:text-primary-light underline">
+                  contact@fit-coach.app
                 </a>
               </p>
             </div>
